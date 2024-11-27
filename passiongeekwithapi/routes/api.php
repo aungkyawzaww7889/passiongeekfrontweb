@@ -1,11 +1,12 @@
 <?php
 
 use App\Http\Controllers\Api\TestimonialsController;
+use App\Http\Controllers\FirstpagesbladeController;
 use App\Http\Controllers\FirstpagesController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-
+    
 
 Route::get('/home',[FirstpagesController::class,'index']);
 Route::post('/home/store',[FirstpagesController::class,'store']);
